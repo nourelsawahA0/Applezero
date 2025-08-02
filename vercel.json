@@ -14,33 +14,12 @@
       "use": "@vercel/python"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "/backend/server.py"
-    },
-    {
-      "src": "/sw.js",
-      "dest": "/frontend/build/sw.js",
-      "headers": {
-        "Service-Worker-Allowed": "/"
-      }
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/frontend/build/manifest.json",
-      "headers": {
-        "Content-Type": "application/json"
-      }
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/frontend/build/index.html"
+      "source": "/api/(.*)",
+      "destination": "/backend/server.py"
     }
   ],
-  "env": {
-    "REACT_APP_BACKEND_URL": "https://applezero.app"
-  },
   "headers": [
     {
       "source": "/sw.js",
