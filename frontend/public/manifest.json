@@ -1,0 +1,77 @@
+{
+  "name": "AppleZero - Apple Store Account Transfer",
+  "short_name": "AppleZero",
+  "description": "Zero your Apple Store account balance and switch regions seamlessly. Transfer your balance to our secure platform and gain freedom to shop in any region.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "categories": ["finance", "utilities", "business"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Transfer Request",
+      "short_name": "New Request",
+      "description": "Create a new Apple Store region transfer request",
+      "url": "/?tab=new-request",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "My Dashboard", 
+      "short_name": "Dashboard",
+      "description": "View your transfer requests and status",
+      "url": "/?tab=dashboard",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192", 
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "AppleZero Dashboard"
+    },
+    {
+      "src": "/screenshot-narrow.png", 
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "AppleZero Mobile"
+    }
+  ]
+}
