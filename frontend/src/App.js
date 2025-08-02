@@ -1,23 +1,3 @@
-info
-
-code
-Code
-
-preview
-Preview
-
-Deploy
-Deploy
-Robot
-Hey Nour, Quick input needed :
-Ask Question
-Agent will continue working after your reply
-Excellent! 🎉 Now let's create the main React application:
-
-📄 Create frontend/src/App.js
-Click "Create new file"
-Type: frontend/src/App.js
-Copy-paste this complete React PWA app:
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './components/ui/card';
 import { Button } from './components/ui/button';
